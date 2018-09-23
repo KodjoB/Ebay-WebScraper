@@ -139,10 +139,10 @@ def extract(item, file_name):
             shipping = shipping_ref[0].text.strip()
             print("[+] "+str(shipping)+".")
             with open(file_name, "a+") as fopen:
-                fopen.write(title.replace(",", " ")+ ","+price.replace(",", ".")+","+shipping.replace(",", ".")+","+link+"\n")
+                fopen.write(title.replace(",", " ")+ ", "+price.replace(",", ".")+", "+shipping.replace(",", ".")+", "+link+"\n")
         except:
             with open(file_name, "a+") as fopen:
-                fopen.write(title.replace(",", " ")+","+price.replace(",", ".")+",None,"+link+"\n")
+                fopen.write(title.replace(",", " ")+ ", "+price.replace(",", ".")+", None , "+link+"\n")
                 continue
 
 
