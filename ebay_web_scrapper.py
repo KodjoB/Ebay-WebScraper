@@ -1,6 +1,6 @@
 """
 This program take user keywords, search them on Ebay.com
-and import into a CSV files product names, prices,
+and import into a CSV files product's names, prices,
 shipping costs and links to its description.
 
 """
@@ -12,9 +12,9 @@ from bs4 import BeautifulSoup as soup
 def main():
     """
     Main function:
-    ->Takes user keywords and check its results on Ebay.com
-    ->File management
-    ->Verbose
+    -> Takes user keywords and check its results on Ebay.com
+    -> File management
+    -> Verbose
     """
     print("What do you want to search on Ebay ?")
     search_item = input()
