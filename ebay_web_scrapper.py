@@ -1,5 +1,5 @@
 """
-This program take user keywords, search them on Ebay.com
+This program takes user keywords, search them on Ebay.com
 and import into a CSV files product's names, prices,
 shipping costs and links to its description.
 
